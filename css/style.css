@@ -64,8 +64,30 @@ main{
     background-color: white;
 }
 
+/* Blocco 3 Large container  */
 
+.bigcontainer{
+    background-color: violet;
+    width: 100%;
+}
 
+.largecontainer{
+    background-color: #F5F5F5;
+    height: 50vh;
+    width: 100%;
+}
+
+.largecontainer2{
+    background-color: #B4D0E7;
+    height: 30vh;
+    width: 100%;
+}
+
+.largecontainer3{
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+}
 
 
 
@@ -81,6 +103,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .footercolumn{
