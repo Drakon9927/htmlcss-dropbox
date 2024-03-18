@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* Header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.leftbox, .rightbox{
+    width: 30%;
+    background-color: red;    
+}
+
+/* Contenitore 1 */
+
+main{
+    width: 100%;
+}
+
+.flexcontainer1{
+    margin-top: 150px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+}
+
+.container1{
+    background-color: bisque;
+    max-width: 80%;
+    width: 100%;
+}
