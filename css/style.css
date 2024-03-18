@@ -4,13 +4,17 @@
     padding: 0;
 }
 
+body{
+    width: 100%;
+}
+
 /* Header */
 header{
     position: fixed;
     top: 0;
     left: 0;
     background-color: aqua;
-    height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -23,7 +27,7 @@ header{
     background-color: red;    
 }
 
-/* Contenitore 1 */
+/* Blocco 1 */
 
 main{
     width: 100%;
@@ -43,3 +47,46 @@ main{
     max-width: 80%;
     width: 100%;
 }
+
+/* Blocco 2 */
+
+.flexcontainer2{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    height: 200vh;
+    width: 100%;
+}
+
+.container2{
+    max-width: 60%;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    background-color: black;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footercolumn{
+    background-color: red;
+    height: 20vh;
+    width: 15%;
+    margin: 10px;
+}
+
