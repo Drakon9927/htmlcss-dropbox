@@ -44,7 +44,7 @@ header span{
     margin: 40px 0px;
     border: none;
     max-height: 55px;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .leftbox>span, .rightbox>span{
@@ -58,33 +58,46 @@ main{
 }
 
 h1{
+    margin-top: 150px;
     font-size: 100px;
     font-weight: 800;
     margin-bottom: 50px;
+    text-align: center;
+    max-width: 70%;
 }
 
-.flexcontainer1{
-    display: flex;
+.h1wrapper{
     width: 100%;
+    display: flex;
     justify-content: center;
+}
+
+.flexcontainer1 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
     background-color: #B4D0E7;
 }
 
 .container1{
-    margin-top: 150px;
     max-width: 70%;
     width: 100%;
     font-size: 25px;
+    display: flex;
+    flex-direction: row;
 }
 
 .textbox1{
     display: flex;
-    width: 30%;
+    width: 40%;
     flex-direction: column;
+    gap: 30px;
 }
 
 .imgbox1{
-    width: 70%;
+    width: 60%;
 }
 
 .fontcontainer{
@@ -106,7 +119,6 @@ i{
 .flexcontainer2{
     display: flex;
     justify-content: center;
-    height: 200vh;
     width: 100%;
     padding: 100px;
     font-size: 25px;
@@ -194,8 +206,24 @@ hr{
     margin-top: 50px;
 }
 
+/* Blocco img e text */
+.mwidth60{
+    max-width: 60%;
+}
 
-/* Blocco 3 Large container  */
+.bwhite{
+    background-color: white;
+}
+
+.textbox1>span{
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 250px;
+    text-align: center;
+}
+
+
+/* Blocco  Large container  */
 
 .bigcontainer{
     background-color: violet;
