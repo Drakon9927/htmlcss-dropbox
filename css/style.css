@@ -15,24 +15,31 @@ header{
     top: 0;
     left: 0;
     background-color:white;
-    height: 10vh;
+    line-height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     font-size: 25px;
+    height: 10vh;
 }
 
 header span{
     line-height: 40px;
+    display: block;
 }
 
 .leftbox, .rightbox{
     display: flex;
-    width: 30%;
+    width: 50%;
     gap: 50px;
-    line-height: 100px;
+    margin-left: 20px;
+}
+
+.rightbox{
+    justify-content: flex-end;
+    margin-right: 20px;
 }
 
 
@@ -72,13 +79,16 @@ h1{
     justify-content: center;
 }
 
-.flexcontainer1 {
+.flexcontainer1, .flexcontainer3, .flexcontainer4 {
     display: flex;
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
     width: 100%;
-    background-color: #B4D0E7;
+}
+
+.flexcontainer1{
+    background-image: linear-gradient(to bottom, #B4D0E7 0%, #B4D0E7 90%, #FFFFFF 90%, #FFFFFF 100%);
 }
 
 .container1{
@@ -98,6 +108,10 @@ h1{
 
 .imgbox1{
     width: 60%;
+}
+
+.imgbox1>img{
+    width: 120%;
 }
 
 .fontcontainer{
@@ -207,27 +221,98 @@ hr{
 }
 
 /* Blocco img e text */
+
+.flexcontainer3{
+ background-color: white;
+}
+
 .mwidth60{
-    max-width: 60%;
+    max-width: 65%;
+    justify-content: space-between  ;
+    
 }
 
 .bwhite{
     background-color: white;
 }
 
-.textbox1>span{
+.textbox2>span{
     border: 1px solid black;
     padding: 10px;
     max-width: 250px;
     text-align: center;
 }
 
+.imgbox2{
+    width: 70%;
+    margin-right: 30px;
+}
+.img2{
+    width: 90%;
+    
+}
+.textbox2{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    gap: 30px;
+}
 
+/* Blocco - Wrap */
+
+.flexcontainer4{
+    margin-top: 200px;
+    padding:40px
+}
+
+.flexcontainer4>h2{
+    max-width: 70%;
+    margin-bottom: 100px;
+    width: 100%;
+    padding: 15px;
+}
+
+.wrapcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.wrapcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: calc(100% / 3 - 45px); 
+    margin: 15px;
+    align-items: center;
+}
+
+.image-container>img{
+    width: 80%;
+}
+
+.wraptextbox{
+    font-size: 20px;
+    width: 80%;
+}
+.wraptextbox>h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#aflex{
+    display: block;
+    width: 68%;
+}
 /* Blocco  Large container  */
 
 .bigcontainer{
     background-color: violet;
     width: 100%;
+    margin-top: 100px;
 }
 
 .largecontainer{
