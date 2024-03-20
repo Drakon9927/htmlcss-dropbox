@@ -54,9 +54,7 @@ header span{
     max-width: 400px;
 }
 
-.leftbox>span, .rightbox>span{
 
-}
 
 /* Blocco 1 */
 
@@ -467,11 +465,19 @@ li span{
 
 .hiddenlist{
     display: none;
+    padding: 20px;
 }
 
-.visiblelist:active{
+.visiblelist:hover + .hiddenlist{
     display: block;
 }
+
+.visiblelist:hover i{
+    transform: rotate(270deg);
+}
+
+
+
 
 
 
