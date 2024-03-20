@@ -53,7 +53,11 @@ header span{
     max-height: 55px;
     max-width: 400px;
 }
+/* Header hover */
 
+    .hover1:hover, .hover2:hover, .hover3:hover ,.hover4:hover, .hover5:hover, .hover6:hover{
+        border-bottom: 5px solid black;
+    }
 
 
 /* Blocco 1 */
