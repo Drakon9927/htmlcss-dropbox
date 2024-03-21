@@ -56,9 +56,12 @@ header span{
 /* Header hover */
 
     .hover1:hover, .hover2:hover, .hover3:hover ,.hover4:hover, .hover5:hover, .hover6:hover{
-        border-bottom: 5px solid black;
+        border-bottom: 3px solid black;
     }
 
+    .hover1:hover, .hover2:hover, .hover3:hover ,.hover4:hover, .hover5:hover, .hover6:hover{
+        transition: 0.3s;
+    }
 
 /* Blocco 1 */
 
@@ -75,13 +78,8 @@ h1{
     max-width: 70%;
 }
 
-.h1wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 
-.flexcontainer1, .flexcontainer3, .flexcontainer4 {
+.flexcontainer1, .flexcontainer3, .flexcontainer4, .h1wrapper {
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -118,6 +116,12 @@ h1{
 
 .fontcontainer{
     margin-top: 150px;
+}
+
+.fontcontainer>a{
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
 }
 
 
@@ -479,12 +483,6 @@ li span{
 .visiblelist:hover i{
     transform: rotate(270deg);
 }
-
-
-
-
-
-
 
 /* Footer */
 
